@@ -14,7 +14,7 @@
     <script>
         var app = angular.module( 'app', [] );
         var MyFunc = function() {
-            this.name = "default name";
+            this.name = "Welcome name";
             this.$get = function() {
                 this.name = "new name"
                 return "Hello from MyFunc.$get(). this.name = " + this.name;
